@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ProjectListScreen} from './screens/project-lis/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProjectListScreen/>
   </React.StrictMode>,
   document.getElementById('root')
 );

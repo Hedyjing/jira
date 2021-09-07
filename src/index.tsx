@@ -7,7 +7,7 @@ import {ProjectListScreen} from './screens/project-lis/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProjectListScreen/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
